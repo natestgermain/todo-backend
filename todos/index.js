@@ -34,5 +34,10 @@ router.get('/:id', (req, res) => {
   });
 });
 
+// TODO:
+// * create another file to separate work for switching the "check" on a reminder with safety for it not existing
+// * create post to create reminder
+// * separate file for properties that updates description, is_checked, etc.
+
 module.exports = router;
 
