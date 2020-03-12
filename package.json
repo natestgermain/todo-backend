@@ -4,7 +4,7 @@
   "description": "A backend intended for use with \"Hello World\" to-do apps.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/natestgermain/todo-backend#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "sqlite3": "^4.1.1"
   }
 }
