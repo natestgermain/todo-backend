@@ -18,6 +18,6 @@
   "homepage": "https://github.com/natestgermain/todo-backend#readme",
   "dependencies": {
     "express": "^4.17.3",
-    "sqlite3": "^4.1.1"
+    "sqlite3": "^5.1.6"
   }
 }
